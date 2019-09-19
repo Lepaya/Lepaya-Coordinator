@@ -1,14 +1,21 @@
 //
 // TabCoordinator.swift
-// 
+//
 // Created by Alessio on 19/11/2018.
-// Copyright 2019 Alessio Sardella. All rights reserved.
+// Copyright 2019 Lepaya. All rights reserved.
 //
 
 import UIKit
 
 public protocol TabCoordinatorDelegate: AnyObject {
     
+    /**
+     Use this method to reload the root EUIViewControllers on UITabBarController
+     
+     - Parameter controller: The controller to reload
+     - Parameter index: The UITabBarController tab index
+     
+     */
     func reloadRootController(_ controller:EUIViewController, atIndex index: Int)
     
 }
@@ -20,7 +27,7 @@ open class TabCoordinator: Coordinator {
     var tabNames: [String] = []
     var tabImages: [String] = []
     
-    ///Select the first tab to load, default is 0.  Only the first visible tab's UIViewController is loaded, the other are loaded only if the user select them.
+    ///Select the first tab to load, default is 0.  Only the first visible tab's EUIViewController is loaded, the other are loaded only if the user select them.
     public var firstTabToLoad: Int = 0
     public var navigationCoordinators: [NCCoordinator] = []
     public weak var delegate: TabCoordinatorDelegate?
@@ -32,6 +39,31 @@ open class TabCoordinator: Coordinator {
         
     }
     
+    /**
+     Setup the UITabBarController.
+     
+     - Parameter tabNames: Names for the different tabs
+     - Parameter tabImages: Images for the different tabs
+     - Parameter coordinators: The NCCoordinators for each tab
+     
+     Example usage:
+     ```
+     let appCoordinator = TabCoordinator(window: self.window!)
+     appCoordinator.setup(tabNames: ["first", "second"],
+     tabImages: ["tab_image_01", "tab_image_02"]) { () -> ([NCCoordinator]) in
+     
+     let firstTab = NCCoordinator(rootController: RedController())
+     
+     let secondTab = NCCoordinator(rootController: GreenController())
+     
+     return [firstTab, secondTab]
+     
+     }
+     appCoordinator.firstTabToLoad = 1
+     appCoordinator.start()
+     ```
+     - important: Make sure to have the same number of `tabNames` and `tabImages`
+     */
     public func setup(tabNames: [String], tabImages: [String], coordinators: () -> ([NCCoordinator])){
         
         print("Set Session's tabCoordinator")
@@ -65,12 +97,14 @@ open class TabCoordinator: Coordinator {
         self.window.makeKeyAndVisible()
     }
     
+    ///Get current navigation controller in the selected tab
     public func currentNavigationController() -> UINavigationController? {
         
         return self.navigationCoordinators[self.tabController.selectedIndex].navigationController
         
     }
     
+    ///Reload a selected tab, if the NCCoordinator is not started yet, it starts.
     public func reload(selectedIndex index: Int) {
         
         let coordinator = self.navigationCoordinators[index]

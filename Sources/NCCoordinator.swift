@@ -2,7 +2,7 @@
 // NCCoordinator.swift
 // 
 // Created by Alessio Sardella on 19/11/2018.
-// Copyright 2019 Alessio Sardella. All rights reserved.
+// Copyright 2019 Lepaya. All rights reserved.
 //
 
 import UIKit
@@ -10,6 +10,8 @@ import UIKit
 open class NCCoordinator: Coordinator {
     
     public var navigationController: UINavigationController
+    
+    ///First view controller of the UINavigationController
     public var startController: EUIViewController!
     
     public init(rootController: EUIViewController) {
@@ -20,12 +22,14 @@ open class NCCoordinator: Coordinator {
         
     }
     
+    ///Start the NCCordinator inside a TabCoordinator
     public func start() {
         
         self.navigationController.pushViewController(startController, animated: true)
         
     }
     
+    ///Start the NCCordinator for navigation absed application
     public func start(window: UIWindow? = nil) {
         
         self.start()
@@ -37,10 +41,12 @@ open class NCCoordinator: Coordinator {
         }
     }
     
+    ///Get the root UIViewController
     public var rootViewController: UIViewController {
         return self.navigationController
     }
     
+    ///Check if the root UIViewController is visible
     public func rootViewControllerIsVisible() -> Bool {
         
         return self.startController == self.navigationController.currentViewController()

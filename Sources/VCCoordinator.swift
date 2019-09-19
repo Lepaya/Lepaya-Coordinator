@@ -2,7 +2,7 @@
 // VCCoordinator.swift
 // 
 // Created by Alessio Sardella on 19/11/2018.
-// Copyright 2019 Alessio Sardella. All rights reserved.
+// Copyright 2019 Lepaya. All rights reserved.
 //
 
 import UIKit
@@ -33,6 +33,7 @@ open class VCCoordinator: Coordinator {
         
     }
     
+    ///Push or present the next EUIViewController
     public func start() {
         if presenter == nil {
             self.navigationController.pushViewController(self.presented, animated: animatedTransition)
@@ -43,6 +44,7 @@ open class VCCoordinator: Coordinator {
         }
     }
     
+    ///Navigate back to previous EUIViewController, modal or not
     public func goback() {
         if presenter == nil {
             navigationController.popViewController(animated: animatedTransition)
