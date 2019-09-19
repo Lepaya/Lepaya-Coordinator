@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint CoordinatorPackage.podspec' to ensure this is a
+#  Be sure to run `pod spec lint Lepaya-Coordinator.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "CoordinatorPackage"
-  spec.version      = "2.0.3"
-  spec.summary      = "pod to implement the Coordinator design pattern with ease"
+  spec.name         = "Lepaya-Coordinator"
+  spec.version      = "0.0.1"
+  spec.summary      = "pod to implement the Coordinator design pattern with ease."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,10 +25,10 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-Useful pod to implement the Coordinator design pattern with ease. For UITabBarController and UINavigationController.
+Useful pod to implement the Coordinator design pattern with ease. For UITabBarController and UINavigationController.Useful pod to implement the Coordinator design pattern with ease. For UITabBarController and UINavigationController.
                    DESC
 
-  spec.homepage     = "https://github.com/Tokta/CoordinatorPackage"
+  spec.homepage     = "https://github.com/Lepaya/Lepaya-Coordinator"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,7 +39,7 @@ Useful pod to implement the Coordinator design pattern with ease. For UITabBarCo
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = { :type => "MIT", :file => "LICENSE" }
+    spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -52,7 +52,7 @@ Useful pod to implement the Coordinator design pattern with ease. For UITabBarCo
   #  profile URL.
   #
 
-  spec.author             = "Alessio Sardella"
+  spec.author             = { "Alessio Sardella" => "alessio.sardella@gmail.com" }
   # Or just: spec.author    = "Alessio"
   # spec.authors            = { "Alessio" => "alessio@lepaya.com" }
   # spec.social_media_url   = "https://twitter.com/Alessio"
@@ -65,7 +65,6 @@ Useful pod to implement the Coordinator design pattern with ease. For UITabBarCo
 
     spec.platform     = :ios, "10.0"
     spec.swift_versions = "5.0"
-  # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -80,7 +79,7 @@ Useful pod to implement the Coordinator design pattern with ease. For UITabBarCo
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/Tokta/CoordinatorPackage.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/Lepaya/Lepaya-Coordinator.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,8 +90,8 @@ Useful pod to implement the Coordinator design pattern with ease. For UITabBarCo
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Sources/"
-#spec.exclude_files = "Classes/Exclude"
+    spec.source_files  = "Sources/"
+  #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
