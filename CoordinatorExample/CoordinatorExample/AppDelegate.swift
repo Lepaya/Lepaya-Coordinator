@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import CoordinatorPackage
+import Lepaya_Coordinator
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -45,8 +45,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          UINavigationController
          
          */
-        let firstTab = NCCoordinator(rootController: RedController())
-        firstTab.start(window: self.window!)
+//        let firstTab = NCCoordinator(rootController: RedController())
+//        firstTab.start(window: self.window!)
         
         return true
     }

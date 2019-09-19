@@ -51,7 +51,7 @@ open class NCCoordinator: Coordinator {
 extension UINavigationController {
     
     ///Get previous view controller of the navigation stack
-    func previousViewController() -> EUIViewController? {
+    public func previousViewController() -> EUIViewController? {
         
         let lenght = self.viewControllers.count
         
@@ -63,7 +63,7 @@ extension UINavigationController {
     }
     
     ///Get current view controller of the navigation stack
-    func currentViewController() -> EUIViewController? {
+    public func currentViewController() -> EUIViewController? {
         
         let lenght = self.viewControllers.count
         

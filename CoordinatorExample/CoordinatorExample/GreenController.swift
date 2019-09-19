@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import CoordinatorPackage
+import Lepaya_Coordinator
 
 class GreenController: EUIViewController {
     

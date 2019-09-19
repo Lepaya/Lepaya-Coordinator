@@ -28,7 +28,7 @@ open class ExtendedViewController: UIViewController {
     }
     
     
-    @objc public final func goBack(){
+    @objc open func goBack(){
         
         self.coordinator?.goback()
         

@@ -75,3 +75,9 @@ and then implement the method:
 ```
 func reloadRootController(_ controller: EUIViewController, atIndex index: Int)
 ```
+
+To install using cocoapods:
+```
+pod 'CoordinatorPackage'
+```
+Or just download/clone the repo and drag to your project the content of the 'Sources' folder.

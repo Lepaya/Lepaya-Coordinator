@@ -1,6 +1,0 @@
-framework module CoordinatorPackage {
-  umbrella header "CoordinatorPackage-umbrella.h"
-
-  export *
-  module * { export * }
-}

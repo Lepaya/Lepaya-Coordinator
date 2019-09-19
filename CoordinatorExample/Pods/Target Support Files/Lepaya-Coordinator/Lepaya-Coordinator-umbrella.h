@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double CoordinatorPackageVersionNumber;
-FOUNDATION_EXPORT const unsigned char CoordinatorPackageVersionString[];
+FOUNDATION_EXPORT double Lepaya_CoordinatorVersionNumber;
+FOUNDATION_EXPORT const unsigned char Lepaya_CoordinatorVersionString[];
 

@@ -1,0 +1,6 @@
+framework module Lepaya_Coordinator {
+  umbrella header "Lepaya-Coordinator-umbrella.h"
+
+  export *
+  module * { export * }
+}

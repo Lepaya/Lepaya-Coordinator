@@ -9,7 +9,7 @@ import Foundation
 
 final public class CoordinatorSession {
     
-    static let shared = CoordinatorSession()
+    public static let shared = CoordinatorSession()
     public var tabCoordinator: TabCoordinator?
     public var navCoordinator: NCCoordinator?
     

@@ -6,5 +6,5 @@ target 'CoordinatorExample' do
   use_frameworks!
 
   # Pods for CoordinatorExample
-	pod 'CoordinatorPackage', '~> 2.0'
+	pod 'Lepaya-Coordinator'
 end

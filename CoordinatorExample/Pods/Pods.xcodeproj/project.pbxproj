@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		348582194493A8456CB55ED8AA9AD890 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		3FF0F96E630A8A9F493EE1D066A4BAA1 /* VCCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B770D7E143B3D22DBEAEDF25FABD946F /* VCCoordinator.swift */; };
-		49EB2E15FC32BD2E2E8929258BEDB12D /* Pods-CoordinatorExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE8CEEAC086DF693F6AF8A8032D1DA /* Pods-CoordinatorExample-dummy.m */; };
-		A10B13B179393B63E3A3FB0EF95D7C37 /* Pods-CoordinatorExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEAC679D16B47F668D1F3B7C4AA9D26D /* Pods-CoordinatorExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6E2A7E398B271F6E6DEC5E1E76E35F4 /* TabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2064365A3614E584C4281B3FF86708F4 /* TabCoordinator.swift */; };
-		C891661436551334C53EBCEBC466061A /* CoordinatorPackage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 460E5ED72613DC51A53B7B33F766BAC5 /* CoordinatorPackage-dummy.m */; };
-		CA8386853E33BE991891032AFE0DD1D1 /* NCCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8044AF6CE1999712522217C4B0A16EF /* NCCoordinator.swift */; };
-		D4017427C7A941E8F4F712A1C1688CFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		DD28AC82AF034FF62DE2B1402838EC6A /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E195E833C44BFA7C21A8C4EE2D7170D0 /* Coordinator.swift */; };
-		E76A3F9C5D97F837FCAF6E70B0F6C578 /* CoordinatorPackage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB474B313AE6AEFE8EF2C57DD7E7CD9F /* CoordinatorPackage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE8BDEB0FA33D7E05F0496D349075B2C /* CoordinatorSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A97FEABA886D9A9AD3C6BCBB67A062 /* CoordinatorSession.swift */; };
-		F86F0F18A565B6048BB333567DB84FB9 /* ExtendedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6596D48A36ACDAB8068C4F7F870EA963 /* ExtendedViewController.swift */; };
+		004318F63C84B1C031DC6EAE1937D255 /* ExtendedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4241E936D2E4FC6243E466851B55BB2E /* ExtendedViewController.swift */; };
+		41B676E7810F2381969C1EF7A23F8B1B /* NCCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A70DE955CB0872999FCC762FA6E258 /* NCCoordinator.swift */; };
+		4DB7F9BAF5B23BEC9523F5BB52BF2BC0 /* VCCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3BEBAEDB9DFF465C76502FD69622ED /* VCCoordinator.swift */; };
+		6530023F15A910853DFC11FEA558FFB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		685218F14EB8154452CD638102086F45 /* Lepaya-Coordinator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7585550312945DE7A897374D03DD74D /* Lepaya-Coordinator-dummy.m */; };
+		7A2F767B6CE3B4CBFDCD4AC3136E3AB9 /* Pods-CoordinatorExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE8CEEAC086DF693F6AF8A8032D1DA /* Pods-CoordinatorExample-dummy.m */; };
+		7EC15BFB5BBE978627B31F3F03B4BBDF /* Pods-CoordinatorExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEAC679D16B47F668D1F3B7C4AA9D26D /* Pods-CoordinatorExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8640B80C4A1F9630919B889EA7538D07 /* CoordinatorSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A58AFB362A6EEA6F305C2F24EEDCB7 /* CoordinatorSession.swift */; };
+		CAC99A34211FE2B6977B1C251694B363 /* TabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569150698184C0D6F23C604518DD7CC0 /* TabCoordinator.swift */; };
+		E84A257FB3EF9965049973104C6151CC /* Lepaya-Coordinator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41B512DF37F3B770EA158827EBABA3FD /* Lepaya-Coordinator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB0B4CF039F9C1AF4E36B0E43E3F6D2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FB999016AC451B0D043E4C9134940FD7 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2736A1D2F468C1B455AC66C4D1B05A45 /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8D4508026252293695E698A543DEC3C4 /* PBXContainerItemProxy */ = {
+		E367BFAAA49F27DF4B80AF212F85683F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CC9413BB35F82185544935E7BC6F43B3;
-			remoteInfo = CoordinatorPackage;
+			remoteGlobalIDString = 0980759F7CF438A20FB680097660CCC8;
+			remoteInfo = "Lepaya-Coordinator";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -35,71 +35,79 @@
 		02EC7D4BF10964E5B54833EF63538134 /* Pods-CoordinatorExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoordinatorExample.debug.xcconfig"; sourceTree = "<group>"; };
 		0623E238509A4C75F9A5949402CAC4C3 /* Pods-CoordinatorExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CoordinatorExample.modulemap"; sourceTree = "<group>"; };
 		0BCE8CEEAC086DF693F6AF8A8032D1DA /* Pods-CoordinatorExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoordinatorExample-dummy.m"; sourceTree = "<group>"; };
-		1875B07BFF319E048F6E1A7AA50FF5C5 /* CoordinatorPackage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoordinatorPackage.xcconfig; sourceTree = "<group>"; };
+		19237F945AA6BF0C94234A6098A4A2F1 /* Lepaya-Coordinator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Lepaya-Coordinator.xcconfig"; sourceTree = "<group>"; };
 		1ED34718CCF83B8DE51AAD5D498F2E1C /* Pods-CoordinatorExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoordinatorExample-frameworks.sh"; sourceTree = "<group>"; };
-		2064365A3614E584C4281B3FF86708F4 /* TabCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TabCoordinator.swift; path = Sources/TabCoordinator.swift; sourceTree = "<group>"; };
-		216483E82471F3E2BA65F1E4C741E429 /* CoordinatorPackage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CoordinatorPackage.modulemap; sourceTree = "<group>"; };
+		2736A1D2F468C1B455AC66C4D1B05A45 /* Coordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coordinator.swift; path = Sources/Coordinator.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		36F8563564CD6DFB56ABD6FF6C65D86B /* Pods-CoordinatorExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoordinatorExample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		38DA59F5FA58AADCE12BFDC9A9BCE014 /* Pods-CoordinatorExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoordinatorExample-acknowledgements.plist"; sourceTree = "<group>"; };
-		460E5ED72613DC51A53B7B33F766BAC5 /* CoordinatorPackage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CoordinatorPackage-dummy.m"; sourceTree = "<group>"; };
+		41B512DF37F3B770EA158827EBABA3FD /* Lepaya-Coordinator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Lepaya-Coordinator-umbrella.h"; sourceTree = "<group>"; };
+		4241E936D2E4FC6243E466851B55BB2E /* ExtendedViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtendedViewController.swift; path = Sources/ExtendedViewController.swift; sourceTree = "<group>"; };
 		48E1587030B4C237650B0AA46DC953FF /* Pods_CoordinatorExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CoordinatorExample.framework; path = "Pods-CoordinatorExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A70DE955CB0872999FCC762FA6E258 /* NCCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NCCoordinator.swift; path = Sources/NCCoordinator.swift; sourceTree = "<group>"; };
+		5662196D51CAE48CC37FE8AC58BD8599 /* Lepaya-Coordinator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Lepaya-Coordinator-prefix.pch"; sourceTree = "<group>"; };
+		569150698184C0D6F23C604518DD7CC0 /* TabCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TabCoordinator.swift; path = Sources/TabCoordinator.swift; sourceTree = "<group>"; };
 		593FFD47E90A28CB0B5E5CBB858F0D19 /* Pods-CoordinatorExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoordinatorExample-Info.plist"; sourceTree = "<group>"; };
-		6596D48A36ACDAB8068C4F7F870EA963 /* ExtendedViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtendedViewController.swift; path = Sources/ExtendedViewController.swift; sourceTree = "<group>"; };
-		758C276AC037E7E90E6CFF1F16802C26 /* CoordinatorPackage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoordinatorPackage-prefix.pch"; sourceTree = "<group>"; };
-		75A97FEABA886D9A9AD3C6BCBB67A062 /* CoordinatorSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoordinatorSession.swift; path = Sources/CoordinatorSession.swift; sourceTree = "<group>"; };
-		78EE2237D6F11BFB29B5ECB45D13DDB3 /* CoordinatorPackage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CoordinatorPackage.framework; path = CoordinatorPackage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F307501E729608ED6D89F4B81F86714 /* Lepaya-Coordinator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Lepaya-Coordinator.modulemap"; sourceTree = "<group>"; };
+		84879088F4A97FFE8C33EA035AD3CB66 /* Lepaya_Coordinator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Lepaya_Coordinator.framework; path = "Lepaya-Coordinator.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93529A09BE31835ACD53098AA5A1A708 /* Pods-CoordinatorExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoordinatorExample.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6A58AFB362A6EEA6F305C2F24EEDCB7 /* CoordinatorSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoordinatorSession.swift; path = Sources/CoordinatorSession.swift; sourceTree = "<group>"; };
+		A7585550312945DE7A897374D03DD74D /* Lepaya-Coordinator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Lepaya-Coordinator-dummy.m"; sourceTree = "<group>"; };
+		AD3BEBAEDB9DFF465C76502FD69622ED /* VCCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VCCoordinator.swift; path = Sources/VCCoordinator.swift; sourceTree = "<group>"; };
 		AEAC679D16B47F668D1F3B7C4AA9D26D /* Pods-CoordinatorExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoordinatorExample-umbrella.h"; sourceTree = "<group>"; };
-		B770D7E143B3D22DBEAEDF25FABD946F /* VCCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VCCoordinator.swift; path = Sources/VCCoordinator.swift; sourceTree = "<group>"; };
-		C8044AF6CE1999712522217C4B0A16EF /* NCCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NCCoordinator.swift; path = Sources/NCCoordinator.swift; sourceTree = "<group>"; };
-		C98AA418D81B55FD780B77DDD46B1DA4 /* CoordinatorPackage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CoordinatorPackage-Info.plist"; sourceTree = "<group>"; };
-		CB474B313AE6AEFE8EF2C57DD7E7CD9F /* CoordinatorPackage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoordinatorPackage-umbrella.h"; sourceTree = "<group>"; };
-		E195E833C44BFA7C21A8C4EE2D7170D0 /* Coordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coordinator.swift; path = Sources/Coordinator.swift; sourceTree = "<group>"; };
+		FA2299573B62D749E015A296B48E57D1 /* Lepaya-Coordinator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Lepaya-Coordinator-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1604393D36622836F3229A3AAB7CE40A /* Frameworks */ = {
+		673099539A18BBF864F74AC8F3DECCB7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4017427C7A941E8F4F712A1C1688CFC /* Foundation.framework in Frameworks */,
+				EB0B4CF039F9C1AF4E36B0E43E3F6D2D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF6A8AA74BBB7F94725E0EFC62004CF0 /* Frameworks */ = {
+		7416047E40D00FB7F07DF958AF9402F1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				348582194493A8456CB55ED8AA9AD890 /* Foundation.framework in Frameworks */,
+				6530023F15A910853DFC11FEA558FFB5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C23E0A43BB69FE1FAA0C4209EB412B6 /* Products */ = {
+		43F667652398618B312EE2EA19A9CE6F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				78EE2237D6F11BFB29B5ECB45D13DDB3 /* CoordinatorPackage.framework */,
+				6F307501E729608ED6D89F4B81F86714 /* Lepaya-Coordinator.modulemap */,
+				19237F945AA6BF0C94234A6098A4A2F1 /* Lepaya-Coordinator.xcconfig */,
+				A7585550312945DE7A897374D03DD74D /* Lepaya-Coordinator-dummy.m */,
+				FA2299573B62D749E015A296B48E57D1 /* Lepaya-Coordinator-Info.plist */,
+				5662196D51CAE48CC37FE8AC58BD8599 /* Lepaya-Coordinator-prefix.pch */,
+				41B512DF37F3B770EA158827EBABA3FD /* Lepaya-Coordinator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Lepaya-Coordinator";
+			sourceTree = "<group>";
+		};
+		5A437C58A5CEEE0B3FC707646711AD43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3B175DD0B5F15921D7760BBD9709403 /* Lepaya-Coordinator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6244AC2F8C4C9428838180CA617ADB88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84879088F4A97FFE8C33EA035AD3CB66 /* Lepaya_Coordinator.framework */,
 				48E1587030B4C237650B0AA46DC953FF /* Pods_CoordinatorExample.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		417524C0DD4688A2BE22CFD0476341E3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				216483E82471F3E2BA65F1E4C741E429 /* CoordinatorPackage.modulemap */,
-				1875B07BFF319E048F6E1A7AA50FF5C5 /* CoordinatorPackage.xcconfig */,
-				460E5ED72613DC51A53B7B33F766BAC5 /* CoordinatorPackage-dummy.m */,
-				C98AA418D81B55FD780B77DDD46B1DA4 /* CoordinatorPackage-Info.plist */,
-				758C276AC037E7E90E6CFF1F16802C26 /* CoordinatorPackage-prefix.pch */,
-				CB474B313AE6AEFE8EF2C57DD7E7CD9F /* CoordinatorPackage-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/CoordinatorPackage";
 			sourceTree = "<group>";
 		};
 		87B6FF29D9271E8B5C32953D4EAFA9F4 /* Targets Support Files */ = {
@@ -110,14 +118,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A3CD1CB972E28E5E90A839E5C06D5CA2 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C5A8A9B1F6CFE42E014257C26A08137B /* CoordinatorPackage */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,28 +126,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C5A8A9B1F6CFE42E014257C26A08137B /* CoordinatorPackage */ = {
-			isa = PBXGroup;
-			children = (
-				E195E833C44BFA7C21A8C4EE2D7170D0 /* Coordinator.swift */,
-				75A97FEABA886D9A9AD3C6BCBB67A062 /* CoordinatorSession.swift */,
-				6596D48A36ACDAB8068C4F7F870EA963 /* ExtendedViewController.swift */,
-				C8044AF6CE1999712522217C4B0A16EF /* NCCoordinator.swift */,
-				2064365A3614E584C4281B3FF86708F4 /* TabCoordinator.swift */,
-				B770D7E143B3D22DBEAEDF25FABD946F /* VCCoordinator.swift */,
-				417524C0DD4688A2BE22CFD0476341E3 /* Support Files */,
-			);
-			name = CoordinatorPackage;
-			path = CoordinatorPackage;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				A3CD1CB972E28E5E90A839E5C06D5CA2 /* Pods */,
-				1C23E0A43BB69FE1FAA0C4209EB412B6 /* Products */,
+				5A437C58A5CEEE0B3FC707646711AD43 /* Pods */,
+				6244AC2F8C4C9428838180CA617ADB88 /* Products */,
 				87B6FF29D9271E8B5C32953D4EAFA9F4 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -177,59 +162,74 @@
 			path = "Target Support Files/Pods-CoordinatorExample";
 			sourceTree = "<group>";
 		};
+		E3B175DD0B5F15921D7760BBD9709403 /* Lepaya-Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				2736A1D2F468C1B455AC66C4D1B05A45 /* Coordinator.swift */,
+				A6A58AFB362A6EEA6F305C2F24EEDCB7 /* CoordinatorSession.swift */,
+				4241E936D2E4FC6243E466851B55BB2E /* ExtendedViewController.swift */,
+				49A70DE955CB0872999FCC762FA6E258 /* NCCoordinator.swift */,
+				569150698184C0D6F23C604518DD7CC0 /* TabCoordinator.swift */,
+				AD3BEBAEDB9DFF465C76502FD69622ED /* VCCoordinator.swift */,
+				43F667652398618B312EE2EA19A9CE6F /* Support Files */,
+			);
+			name = "Lepaya-Coordinator";
+			path = "Lepaya-Coordinator";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		35968441EB9316B89B84A7AA697A7C54 /* Headers */ = {
+		80B7C64E520005FBA29CA0C33C82E12E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A10B13B179393B63E3A3FB0EF95D7C37 /* Pods-CoordinatorExample-umbrella.h in Headers */,
+				7EC15BFB5BBE978627B31F3F03B4BBDF /* Pods-CoordinatorExample-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB5031F53D2EACD370C22FBCBFAA232D /* Headers */ = {
+		B0BF7EA64F6A10ACBD6B903652905F7E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E76A3F9C5D97F837FCAF6E70B0F6C578 /* CoordinatorPackage-umbrella.h in Headers */,
+				E84A257FB3EF9965049973104C6151CC /* Lepaya-Coordinator-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		CC9413BB35F82185544935E7BC6F43B3 /* CoordinatorPackage */ = {
+		0980759F7CF438A20FB680097660CCC8 /* Lepaya-Coordinator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1CD396C8D69F246023EC6522CDF0307D /* Build configuration list for PBXNativeTarget "CoordinatorPackage" */;
+			buildConfigurationList = AAA5AF08487CF806B3943C9B145F8DF5 /* Build configuration list for PBXNativeTarget "Lepaya-Coordinator" */;
 			buildPhases = (
-				CB5031F53D2EACD370C22FBCBFAA232D /* Headers */,
-				A3AD5BEF909C24EAE1B611550248395E /* Sources */,
-				1604393D36622836F3229A3AAB7CE40A /* Frameworks */,
-				FAB17FA96CA96198F12D29A1BA278B11 /* Resources */,
+				B0BF7EA64F6A10ACBD6B903652905F7E /* Headers */,
+				664455BF295C0F0C31151C2FEDCE9D70 /* Sources */,
+				673099539A18BBF864F74AC8F3DECCB7 /* Frameworks */,
+				F92E3BD13DE21FE4877ACC029B2CCAE8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CoordinatorPackage;
-			productName = CoordinatorPackage;
-			productReference = 78EE2237D6F11BFB29B5ECB45D13DDB3 /* CoordinatorPackage.framework */;
+			name = "Lepaya-Coordinator";
+			productName = "Lepaya-Coordinator";
+			productReference = 84879088F4A97FFE8C33EA035AD3CB66 /* Lepaya_Coordinator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FD12EDA0F2E55D54AC526380D5186E84 /* Pods-CoordinatorExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22C4134BBC6E6C59D7818E73FEA896BD /* Build configuration list for PBXNativeTarget "Pods-CoordinatorExample" */;
+			buildConfigurationList = B9DBAEFCF2C916DDF51E9BE06FB3AFC8 /* Build configuration list for PBXNativeTarget "Pods-CoordinatorExample" */;
 			buildPhases = (
-				35968441EB9316B89B84A7AA697A7C54 /* Headers */,
-				14249B1390F7CFBC01F3BFF7DAD1290B /* Sources */,
-				EF6A8AA74BBB7F94725E0EFC62004CF0 /* Frameworks */,
-				CC67E568783C85234C3F3673717A45AA /* Resources */,
+				80B7C64E520005FBA29CA0C33C82E12E /* Headers */,
+				1C6ABC3288936A91A1735645E1FA5DBF /* Sources */,
+				7416047E40D00FB7F07DF958AF9402F1 /* Frameworks */,
+				F0A86FE8691A04E5EEBBD306CE170343 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CEAD5541E078ED4A1E7D5F943B060A73 /* PBXTargetDependency */,
+				C9D4C61DFAC32F6C8EB4CE1988DFB330 /* PBXTargetDependency */,
 			);
 			name = "Pods-CoordinatorExample";
 			productName = "Pods-CoordinatorExample";
@@ -253,25 +253,25 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 1C23E0A43BB69FE1FAA0C4209EB412B6 /* Products */;
+			productRefGroup = 6244AC2F8C4C9428838180CA617ADB88 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CC9413BB35F82185544935E7BC6F43B3 /* CoordinatorPackage */,
+				0980759F7CF438A20FB680097660CCC8 /* Lepaya-Coordinator */,
 				FD12EDA0F2E55D54AC526380D5186E84 /* Pods-CoordinatorExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CC67E568783C85234C3F3673717A45AA /* Resources */ = {
+		F0A86FE8691A04E5EEBBD306CE170343 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAB17FA96CA96198F12D29A1BA278B11 /* Resources */ = {
+		F92E3BD13DE21FE4877ACC029B2CCAE8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -281,40 +281,77 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		14249B1390F7CFBC01F3BFF7DAD1290B /* Sources */ = {
+		1C6ABC3288936A91A1735645E1FA5DBF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49EB2E15FC32BD2E2E8929258BEDB12D /* Pods-CoordinatorExample-dummy.m in Sources */,
+				7A2F767B6CE3B4CBFDCD4AC3136E3AB9 /* Pods-CoordinatorExample-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A3AD5BEF909C24EAE1B611550248395E /* Sources */ = {
+		664455BF295C0F0C31151C2FEDCE9D70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD28AC82AF034FF62DE2B1402838EC6A /* Coordinator.swift in Sources */,
-				C891661436551334C53EBCEBC466061A /* CoordinatorPackage-dummy.m in Sources */,
-				EE8BDEB0FA33D7E05F0496D349075B2C /* CoordinatorSession.swift in Sources */,
-				F86F0F18A565B6048BB333567DB84FB9 /* ExtendedViewController.swift in Sources */,
-				CA8386853E33BE991891032AFE0DD1D1 /* NCCoordinator.swift in Sources */,
-				A6E2A7E398B271F6E6DEC5E1E76E35F4 /* TabCoordinator.swift in Sources */,
-				3FF0F96E630A8A9F493EE1D066A4BAA1 /* VCCoordinator.swift in Sources */,
+				FB999016AC451B0D043E4C9134940FD7 /* Coordinator.swift in Sources */,
+				8640B80C4A1F9630919B889EA7538D07 /* CoordinatorSession.swift in Sources */,
+				004318F63C84B1C031DC6EAE1937D255 /* ExtendedViewController.swift in Sources */,
+				685218F14EB8154452CD638102086F45 /* Lepaya-Coordinator-dummy.m in Sources */,
+				41B676E7810F2381969C1EF7A23F8B1B /* NCCoordinator.swift in Sources */,
+				CAC99A34211FE2B6977B1C251694B363 /* TabCoordinator.swift in Sources */,
+				4DB7F9BAF5B23BEC9523F5BB52BF2BC0 /* VCCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CEAD5541E078ED4A1E7D5F943B060A73 /* PBXTargetDependency */ = {
+		C9D4C61DFAC32F6C8EB4CE1988DFB330 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = CoordinatorPackage;
-			target = CC9413BB35F82185544935E7BC6F43B3 /* CoordinatorPackage */;
-			targetProxy = 8D4508026252293695E698A543DEC3C4 /* PBXContainerItemProxy */;
+			name = "Lepaya-Coordinator";
+			target = 0980759F7CF438A20FB680097660CCC8 /* Lepaya-Coordinator */;
+			targetProxy = E367BFAAA49F27DF4B80AF212F85683F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0A1F21D15F5EAB19E866730B0E681F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19237F945AA6BF0C94234A6098A4A2F1 /* Lepaya-Coordinator.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Lepaya-Coordinator/Lepaya-Coordinator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Lepaya-Coordinator/Lepaya-Coordinator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Lepaya-Coordinator/Lepaya-Coordinator.modulemap";
+				PRODUCT_MODULE_NAME = Lepaya_Coordinator;
+				PRODUCT_NAME = Lepaya_Coordinator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -379,7 +416,7 @@
 			};
 			name = Debug;
 		};
-		27F15B736124CB240791932AB351EA14 /* Debug */ = {
+		279C7C71413130692D6AB39F97CFDF4D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 02EC7D4BF10964E5B54833EF63538134 /* Pods-CoordinatorExample.debug.xcconfig */;
 			buildSettings = {
@@ -417,9 +454,9 @@
 			};
 			name = Debug;
 		};
-		3F19C45070068B752EB2CE765241EB18 /* Release */ = {
+		A856A5951948F69FA602284F7F8534A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1875B07BFF319E048F6E1A7AA50FF5C5 /* CoordinatorPackage.xcconfig */;
+			baseConfigurationReference = 19237F945AA6BF0C94234A6098A4A2F1 /* Lepaya-Coordinator.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -431,30 +468,29 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CoordinatorPackage/CoordinatorPackage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CoordinatorPackage/CoordinatorPackage-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Lepaya-Coordinator/Lepaya-Coordinator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Lepaya-Coordinator/Lepaya-Coordinator-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/CoordinatorPackage/CoordinatorPackage.modulemap";
-				PRODUCT_MODULE_NAME = CoordinatorPackage;
-				PRODUCT_NAME = CoordinatorPackage;
+				MODULEMAP_FILE = "Target Support Files/Lepaya-Coordinator/Lepaya-Coordinator.modulemap";
+				PRODUCT_MODULE_NAME = Lepaya_Coordinator;
+				PRODUCT_NAME = Lepaya_Coordinator;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		4C0D25168F23AC7A6E42CEB87A46189E /* Release */ = {
+		AC46D1111F6769F6849840F7871D064E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 93529A09BE31835ACD53098AA5A1A708 /* Pods-CoordinatorExample.release.xcconfig */;
 			buildSettings = {
@@ -492,42 +528,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		CDA7B40C784DFC9B2CFF1D8C2EC3B308 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1875B07BFF319E048F6E1A7AA50FF5C5 /* CoordinatorPackage.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CoordinatorPackage/CoordinatorPackage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CoordinatorPackage/CoordinatorPackage-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CoordinatorPackage/CoordinatorPackage.modulemap";
-				PRODUCT_MODULE_NAME = CoordinatorPackage;
-				PRODUCT_NAME = CoordinatorPackage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -592,29 +592,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1CD396C8D69F246023EC6522CDF0307D /* Build configuration list for PBXNativeTarget "CoordinatorPackage" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CDA7B40C784DFC9B2CFF1D8C2EC3B308 /* Debug */,
-				3F19C45070068B752EB2CE765241EB18 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		22C4134BBC6E6C59D7818E73FEA896BD /* Build configuration list for PBXNativeTarget "Pods-CoordinatorExample" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				27F15B736124CB240791932AB351EA14 /* Debug */,
-				4C0D25168F23AC7A6E42CEB87A46189E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				131356BE54884448CA49C07BEDF4BB2A /* Debug */,
 				F090CD07A80273D5A73C8EA19224ADDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAA5AF08487CF806B3943C9B145F8DF5 /* Build configuration list for PBXNativeTarget "Lepaya-Coordinator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A856A5951948F69FA602284F7F8534A8 /* Debug */,
+				0A1F21D15F5EAB19E866730B0E681F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9DBAEFCF2C916DDF51E9BE06FB3AFC8 /* Build configuration list for PBXNativeTarget "Pods-CoordinatorExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279C7C71413130692D6AB39F97CFDF4D /* Debug */,
+				AC46D1111F6769F6849840F7871D064E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
