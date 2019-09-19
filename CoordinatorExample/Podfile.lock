@@ -1,0 +1,16 @@
+PODS:
+  - CoordinatorPackage (2.0.0)
+
+DEPENDENCIES:
+  - CoordinatorPackage (~> 2.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CoordinatorPackage
+
+SPEC CHECKSUMS:
+  CoordinatorPackage: c982a9cf6550738ada11bccd2e78b5e44ee055be
+
+PODFILE CHECKSUM: 9ec5c49963385dc7e873f327069a757bae24db64
+
+COCOAPODS: 1.7.3
