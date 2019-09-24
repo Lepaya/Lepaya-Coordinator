@@ -1,4 +1,4 @@
-# CoordinatorPackage
+# Lepaya-Coordinator
 
 Useful pod to implement the Coordinator design pattern with ease. If your app is a tabbed one, you can start with this few lines:
 
@@ -78,6 +78,6 @@ func reloadRootController(_ controller: EUIViewController, atIndex index: Int)
 
 To install using cocoapods:
 ```
-pod 'CoordinatorPackage'
+pod 'Lepaya-Coordinator'
 ```
 Or just download/clone the repo and drag to your project the content of the 'Sources' folder.
