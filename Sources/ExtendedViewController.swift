@@ -55,18 +55,15 @@ extension EUIViewController {
      
      */
     final public func getNavigationController(completion: @escaping (UINavigationController) -> Void) {
-        
-        if let navigation = self.navigationController {
-            
-            DispatchQueue.main.async {
+        DispatchQueue.main.async {
+            if let navigation = self.navigationController {
                 
                 completion(navigation)
                 
+            } else {
+                
+                print("No navigation controller")
             }
-            
-        } else {
-            
-            print("No navigation controller")
         }
     }
 }
