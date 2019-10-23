@@ -2,7 +2,7 @@
 // ExtendedViewController.swift
 // 
 // Created by Alessio Sardella on 09/04/2019.
-// Copyright 2019 Alessio Sardella. All rights reserved.
+// Copyright 2019 Lepaya. All rights reserved.
 //
 
 import UIKit
@@ -21,12 +21,11 @@ open class ExtendedViewController: UIViewController {
     }
     
     public func setTabBarControllerDelegate(){
-        print("TABS: \(String(describing: self.tabsController))")
+        print("Lepaya-Coordinator -> TABS: \(String(describing: self.tabsController.self))")
         self.tabsController?.delegate = self
-        print("TABS DELEGATE: \(String(describing: self.tabsController?.delegate))")
+        print("Lepaya-Coordinator -> TABS DELEGATE: \(String(describing: self.tabsController?.delegate.self))")
         
     }
-    
     
     @objc open func goBack(){
         
@@ -56,18 +55,15 @@ extension EUIViewController {
      
      */
     final public func getNavigationController(completion: @escaping (UINavigationController) -> Void) {
-        
-        if let navigation = self.navigationController {
-            
-            DispatchQueue.main.async {
+        DispatchQueue.main.async {
+            if let navigation = self.navigationController {
                 
                 completion(navigation)
                 
+            } else {
+                
+                print("No navigation controller")
             }
-            
-        } else {
-            
-            print("No navigation controller")
         }
     }
 }

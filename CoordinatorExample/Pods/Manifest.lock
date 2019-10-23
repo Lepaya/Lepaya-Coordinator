@@ -1,16 +1,16 @@
 PODS:
-  - Lepaya-Coordinator (0.0.2)
+  - Lepaya-Coordinator (0.0.3)
 
 DEPENDENCIES:
   - Lepaya-Coordinator
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - Lepaya-Coordinator
 
 SPEC CHECKSUMS:
-  Lepaya-Coordinator: 7e37fb37c61a203ad1ada8e7e02a3d6076528011
+  Lepaya-Coordinator: f9da15b15776ba5d02d647ad24315180fc58bfc8
 
 PODFILE CHECKSUM: 0490466d499aed8e9524da532f7ae87b774e7094
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.8.4
