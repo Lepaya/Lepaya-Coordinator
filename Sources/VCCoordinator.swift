@@ -36,7 +36,10 @@ open class VCCoordinator: Coordinator {
     ///Push or present the next EUIViewController
     public func start() {
         if presenter == nil {
-            self.navigationController.pushViewController(self.presented, animated: animatedTransition)
+            
+            if !self.navigationController.viewControllers.contains(self.presented){
+                self.navigationController.pushViewController(self.presented, animated: animatedTransition)
+            }
             
         } else {
             self.presented.isModal = true
