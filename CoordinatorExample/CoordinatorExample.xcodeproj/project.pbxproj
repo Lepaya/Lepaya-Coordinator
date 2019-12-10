@@ -11,6 +11,7 @@
 		CA3E3F7C22CF8E220042380F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3E3F7B22CF8E220042380F /* AppDelegate.swift */; };
 		CA3E3F8322CF8E230042380F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA3E3F8222CF8E230042380F /* Assets.xcassets */; };
 		CA3E3F8622CF8E230042380F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3E3F8422CF8E230042380F /* LaunchScreen.storyboard */; };
+		CA481C9D239EAD8A00E6493F /* BlueController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA481C9C239EAD8A00E6493F /* BlueController.swift */; };
 		CA9A43C122CF97C700A3C156 /* RedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9A43C022CF97C700A3C156 /* RedController.swift */; };
 		CA9A43C322CF997200A3C156 /* GreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9A43C222CF997200A3C156 /* GreenController.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 		CA3E3F8222CF8E230042380F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA3E3F8522CF8E230042380F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA3E3F8722CF8E230042380F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA481C9C239EAD8A00E6493F /* BlueController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueController.swift; sourceTree = "<group>"; };
 		CA9A43C022CF97C700A3C156 /* RedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedController.swift; sourceTree = "<group>"; };
 		CA9A43C222CF997200A3C156 /* GreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,6 +83,7 @@
 				CA3E3F7B22CF8E220042380F /* AppDelegate.swift */,
 				CA9A43C022CF97C700A3C156 /* RedController.swift */,
 				CA9A43C222CF997200A3C156 /* GreenController.swift */,
+				CA481C9C239EAD8A00E6493F /* BlueController.swift */,
 				CA3E3F8222CF8E230042380F /* Assets.xcassets */,
 				CA3E3F8422CF8E230042380F /* LaunchScreen.storyboard */,
 				CA3E3F8722CF8E230042380F /* Info.plist */,
@@ -203,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA3E3F7C22CF8E220042380F /* AppDelegate.swift in Sources */,
+				CA481C9D239EAD8A00E6493F /* BlueController.swift in Sources */,
 				CA9A43C322CF997200A3C156 /* GreenController.swift in Sources */,
 				CA9A43C122CF97C700A3C156 /* RedController.swift in Sources */,
 			);

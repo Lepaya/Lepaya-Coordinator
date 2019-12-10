@@ -26,14 +26,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          
          */
         let appCoordinator = TabCoordinator(window: self.window!)
-        appCoordinator.setup(tabNames: ["first", "second"],
-                             tabImages: ["tab_image_01", "tab_image_02"]) { () -> ([NCCoordinator]) in
+        appCoordinator.setup(tabNames: ["first", "second", "third"],
+                             tabImages: ["tab_image_01", "tab_image_02","tab_image_03"]) { () -> ([NCCoordinator]) in
 
                                 let firstTab = NCCoordinator(rootController: RedController())
 
                                 let secondTab = NCCoordinator(rootController: GreenController())
 
-                                return [firstTab, secondTab]
+                                let thirdTab = NCCoordinator(rootController: BlueController())
+                                
+                                return [firstTab, secondTab, thirdTab]
 
         }
         appCoordinator.firstTabToLoad = 1

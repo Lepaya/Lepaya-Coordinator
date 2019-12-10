@@ -25,7 +25,9 @@ open class NCCoordinator: Coordinator {
     ///Start the NCCordinator inside a TabCoordinator
     public func start() {
         
-        self.navigationController.pushViewController(startController, animated: true)
+        if !self.navigationController.viewControllers.contains(startController){
+            self.navigationController.pushViewController(startController, animated: true)
+        }
         
     }
     

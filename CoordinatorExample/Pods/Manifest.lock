@@ -1,5 +1,5 @@
 PODS:
-  - Lepaya-Coordinator (0.0.3)
+  - Lepaya-Coordinator (0.0.5)
 
 DEPENDENCIES:
   - Lepaya-Coordinator
@@ -9,7 +9,7 @@ SPEC REPOS:
     - Lepaya-Coordinator
 
 SPEC CHECKSUMS:
-  Lepaya-Coordinator: f9da15b15776ba5d02d647ad24315180fc58bfc8
+  Lepaya-Coordinator: 56c917406d01cf45151a7816603809c2781665f5
 
 PODFILE CHECKSUM: 0490466d499aed8e9524da532f7ae87b774e7094
 
