@@ -47,7 +47,7 @@ open class VCCoordinator: Coordinator {
         }
     }
     
-    ///Navigate back to previous EUIViewController, modal or not
+    ///Navigate back to previous EUIViewController, modal or not, must be call on the main thread
     public func goback() {
         if presenter == nil {
             navigationController.popViewController(animated: animatedTransition)
