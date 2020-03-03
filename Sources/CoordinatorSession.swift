@@ -13,4 +13,22 @@ final public class CoordinatorSession {
     public var tabCoordinator: TabCoordinator?
     public var navCoordinator: NCCoordinator?
     
+    /**
+     Get the current CoordinatorSession visible controller. If there is no controller returns nil.
+     */
+    final public func visibleController() -> ExtendedViewController?{
+        
+        if let tabs = self.tabCoordinator {
+            
+            return tabs.currentNavigationController()?.currentViewController()
+            
+        } else if let nav = self.navCoordinator {
+            
+            return nav.navigationController.currentViewController()
+            
+        } else{
+            
+            return nil
+        }
+    }
 }
