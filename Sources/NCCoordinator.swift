@@ -39,7 +39,7 @@ open class NCCoordinator: Coordinator {
         if let window = window {
             window.rootViewController = self.rootViewController
             window.makeKeyAndVisible()
-            CoordinatorSession.shared.navCoordinator = self
+            CoordinatorSession.shared.setNavCoordinator(self)
         }
     }
     

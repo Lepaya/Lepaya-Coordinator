@@ -67,7 +67,7 @@ open class TabCoordinator: Coordinator {
     public func setup(tabNames: [String], tabImages: [String], coordinators: () -> ([NCCoordinator])){
         
         print("Set Session's tabCoordinator")
-        CoordinatorSession.shared.tabCoordinator = self
+        CoordinatorSession.shared.setTabCoordinator(self)
         self.tabNames = tabNames
         self.tabImages = tabImages
         self.navigationCoordinators = coordinators()
