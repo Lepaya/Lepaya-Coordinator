@@ -10,8 +10,8 @@ import Foundation
 final public class CoordinatorSession {
     
     public static let shared = CoordinatorSession()
-    public var tabCoordinator: TabCoordinator?
-    public var navCoordinator: NCCoordinator?
+    public private(set) var tabCoordinator: TabCoordinator?
+    public private(set) var navCoordinator: NCCoordinator?
     
     /**
      Get the current CoordinatorSession visible controller. If there is no controller returns nil.
@@ -30,5 +30,15 @@ final public class CoordinatorSession {
             
             return nil
         }
+    }
+    
+    final public func setTabCoordinator(_ tab: TabCoordinator){
+        self.tabCoordinator = tab
+        self.navCoordinator = nil
+    }
+    
+    final public func setNavCoordinator(_ nav: NCCoordinator){
+        self.navCoordinator = nav
+        self.tabCoordinator = nil
     }
 }
