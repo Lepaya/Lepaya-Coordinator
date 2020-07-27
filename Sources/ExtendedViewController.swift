@@ -45,25 +45,3 @@ extension EUIViewController: UITabBarControllerDelegate {
         
     }
 }
-
-extension EUIViewController {
-    
-    /**
-     Return in the completion block the UINavigationController of the ExtendedViewController, if exist, otherwise log an error on FireBase.
-     
-     - parameter completion: pass through the current navigation controller
-     
-     */
-    final public func getNavigationController(completion: @escaping (UINavigationController) -> Void) {
-        DispatchQueue.main.async {
-            if let navigation = self.navigationController {
-                
-                completion(navigation)
-                
-            } else {
-                
-                print("No navigation controller")
-            }
-        }
-    }
-}
