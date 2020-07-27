@@ -3,53 +3,51 @@
 Useful pod to implement the Coordinator design pattern with ease. If your app is a tabbed one, you can start with this few lines:
 
 ```
-self.window = UIWindow(frame: UIScreen.main.bounds)
+    self.window = UIWindow(frame: UIScreen.main.bounds)
         
-        let appCoordinator = TabCoordinator(window: self.window!)
-        appCoordinator.setup(tabNames: ["first", "second"],
-                             tabImages: ["tab_image_01", "tab_image_02"]) { () -> ([NCCoordinator]) in
-                                
-                                let firstTab = NCCoordinator(rootController: RedController())
-                                
-                                let secondTab = NCCoordinator(rootController: GreenController())
-                                
-                                return [firstTab, secondTab]
-                                
-        }
-        appCoordinator.firstTabToLoad = 1 // select which tab will be visible at launch
-        appCoordinator.start()
+    let appCoordinator = TabCoordinator(window: self.window!)
+    appCoordinator.setup(tabNames: ["first", "second"],
+                            tabImages: ["tab_image_01", "tab_image_02"]) { () -> ([NCCoordinator]) in
+                            
+                            let firstTab = NCCoordinator(rootController: RedController())
+                            
+                            let secondTab = NCCoordinator(rootController: GreenController())
+                            
+                            return [firstTab, secondTab]
+                            
+    }
+    appCoordinator.firstTabToLoad = 1 // select which tab will be visible at launch
+    appCoordinator.start()
 ```
 
 If you prefer simple navigation:
 
 ```
-let appCoordinator = NCCoordinator(rootController: RedController())
-        appCoordinator.start(window: self.window!)
+    let appCoordinator = NCCoordinator(rootController: RedController())
+    appCoordinator.start(window: self.window!)
 ```
 
 To push a new Controller:
 
-```
-self.getNavigationController { (navigation) in
-            
-            let green = GreenController()
-            let coordinator = VCCoordinator(push: green, presenter: navigation)
-            green.coordinator = coordinator
-            coordinator.start()
-        }
-```
-
-To present a new one modally:
+```   
+    guard let navigation = self.navigationController else { return } 
+    let green = GreenController()
+    let coordinator = VCCoordinator(push: green, presenter: navigation)
+    green.coordinator = coordinator
+    coordinator.start()
 
 ```
-self.getNavigationController { (navigation) in
-            
-            let green = GreenController()
-            green.loadButtonBack()
-            let coordinator = VCCoordinator(presentModally: green, navigation: navigation, presenter: self)
-            green.coordinator = coordinator
-            coordinator.start()
-        }
+
+To present a new one modally from a controller:
+
+```            
+    guard let navigation = self.navigationController else { return }
+    let green = GreenController()
+    green.loadButtonBack()
+    let coordinator = VCCoordinator(presentModally: green, navigation: navigation, presenter: self)
+    green.coordinator = coordinator
+    coordinator.start()
+ 
 ```
 
 Stop wondering if you have to dismiss or pop a controller to go back, use the extension method of EUIViewController:
