@@ -32,10 +32,10 @@ open class TabCoordinator: Coordinator {
     public var navigationCoordinators: [NCCoordinator] = []
     public weak var delegate: TabCoordinatorDelegate?
     
-    public init(window: UIWindow) {
-        
+    public init(window: UIWindow, tabController: UITabBarController = UITabBarController()) {
+
         self.window = window
-        self.tabController = UITabBarController()
+        self.tabController = tabController
         
     }
     
