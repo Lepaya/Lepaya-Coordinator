@@ -23,7 +23,7 @@ public protocol TabCoordinatorDelegate: AnyObject {
 open class TabCoordinator: Coordinator {
     
     let window: UIWindow
-    let tabController: UITabBarController
+    public let tabController: UITabBarController
     var tabNames: [String] = []
     var tabImages: [String] = []
     
